@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-6caa1fe4da30cf2cc1676a54cb9890359b7ae5e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-d3f1f5cac6ebf3c676915ca601f94d270ecea5f2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\pre-dexed\debug\classes-5a1e0f16d2c606e0e37727e79ed53bdb654cc604.jar" />
+    </item>
+    <item
+        jar="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\pre-dexed\debug\classes-0011fe41ac094664135ef526d93884f87b553c33.jar" />
+    </item>
+    <item
+        jar="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Javier Moreno\Documents\Android Projects\UNET\app\build\intermediates\pre-dexed\debug\classes-d64cb7059cd514dea0272e27ea21f517fc4b96f5.jar" />
+    </item>
+
+</items>
