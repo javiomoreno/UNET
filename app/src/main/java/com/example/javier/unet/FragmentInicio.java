@@ -2,6 +2,7 @@ package com.example.javier.unet;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -26,7 +27,7 @@ public class FragmentInicio extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragmentinicio, container, false);
+        View view = inflater.inflate(R.layout.fragment_inicio_layout, container, false);
 
         Typeface roboto = Typeface.createFromAsset(getActivity().getAssets(),
                 "font/RobotoCondensed-Bold.ttf");
@@ -44,8 +45,8 @@ public class FragmentInicio extends Fragment {
         imageButton_tabla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentTabla()).commit();
+                Intent i = new Intent(getActivity(), ActividadTabla.class);
+                startActivity(i);
             }
         });
 
@@ -53,8 +54,8 @@ public class FragmentInicio extends Fragment {
         imageButton_cuanto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentCuanto()).commit();
+                Intent i = new Intent(getActivity(), ActividadGuarda.class);
+                startActivity(i);
             }
         });
 
@@ -62,8 +63,8 @@ public class FragmentInicio extends Fragment {
         imageButton_guarda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentGuarda()).commit();
+                Intent i = new Intent(getActivity(), ActividadGuarda.class);
+                startActivity(i);
             }
         });
 
@@ -71,8 +72,8 @@ public class FragmentInicio extends Fragment {
         imageButton_calcula.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentCalcula()).commit();
+                Intent i = new Intent(getActivity(), ActividadCalcula.class);
+                startActivity(i);
             }
         });
 

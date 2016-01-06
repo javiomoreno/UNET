@@ -18,6 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActividadTabla" >
+        </activity>
+        <activity android:name=".ActividadCuanto" >
+        </activity>
+        <activity android:name=".ActividadGuarda" >
+        </activity>
+        <activity android:name=".ActividadCalcula" >
+        </activity>
     </application>
 
 </manifest>

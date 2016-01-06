@@ -8,4 +8,9 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titulo_tabla">Tabla de Conversión</string>
+    <string name="titulo_guarda">Guarda tus Notas</string>
+    <string name="titulo_cuanto">¿Cuánto me Falta?</string>
+    <string name="titulo_calcula">Calcula tu Indice</string>
 </resources>

@@ -3,6 +3,7 @@ package com.example.javier.unet;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
@@ -98,13 +99,21 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.inicio) {
             fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentInicio()).commit();
         } else if (id == R.id.tablaConversion) {
-            fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentTabla()).commit();
+            Intent i = new Intent(this, ActividadTabla.class);
+            startActivity(i);
+            //fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentTabla()).commit();
         } else if (id == R.id.cuantoFalta) {
-            fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentCuanto()).commit();
+            Intent i = new Intent(this, ActividadCuanto.class);
+            startActivity(i);
+            //fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentCuanto()).commit();
         } else if (id == R.id.guardaNotas) {
-            fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentGuarda()).commit();
+            Intent i = new Intent(this, ActividadGuarda.class);
+            startActivity(i);
+            //fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentGuarda()).commit();
         } else if (id == R.id.calculaIndice) {
-            fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentCalcula()).commit();
+            Intent i = new Intent(this, ActividadCalcula.class);
+            startActivity(i);
+            //fragmentManager.beginTransaction().replace(R.id.fragmentContainer, new FragmentCalcula()).commit();
         } else if (id == R.id.perfil) {
 
         } else if (id == R.id.cerrarSesion) {
