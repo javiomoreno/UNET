@@ -1,6 +1,8 @@
 package com.example.javier.unet;
 
+import android.support.v7.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -42,10 +44,25 @@ public class ActividadTabla extends AppCompatActivity {
             if(Integer.parseInt(textoOriginal) >= 0 && Integer.parseInt(textoOriginal) <= 100)
             {
                 float resultado = obj.DevolverNumero(Integer.parseInt(textoOriginal));
+
+                AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
+                alertDialog.setTitle("Tabla de Conversión");
+                alertDialog.setMessage("El Resultado es: " + resultado);
+                alertDialog.setCancelable(true);
+                alertDialog.setPositiveButton("Aceptar", null);
+                alertDialog.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+
+                AlertDialog dialog = alertDialog.create();
+                alertDialog.show();
+
+
                 InputMethodManager inputMethodManager = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
                 inputMethodManager.hideSoftInputFromWindow(campo.getWindowToken(), 0);
-                valor_tabla.setVisibility(View.VISIBLE);
-                valor_tabla.setText("El resultado es: "+resultado);
             }
             else
                 Toast.makeText(this, "Debe ser un número entre 0 y 100", Toast.LENGTH_SHORT).show();

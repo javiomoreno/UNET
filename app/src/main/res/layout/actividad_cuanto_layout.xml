@@ -11,9 +11,203 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Cuanto"
+        android:text="Primer Parcial"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
         android:id="@+id/textView5"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp" />
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutPorcentaje1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:paddingLeft="20dp"
+        android:visibility="invisible"
+        android:paddingTop="40dp">
+
+        <EditText
+            android:id="@+id/porcentaje1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Porcentaje"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="170dp"
+        android:inputType="numberSigned"
+        android:paddingTop="40dp"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/nota1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="Nota"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Segundo Parcial"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/textView6"
+        android:paddingTop="120dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutPorcentaje2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="160dp"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/porcentaje2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Porcentaje"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="170dp"
+        android:inputType="numberSigned"
+        android:paddingTop="160dp"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/nota2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="Nota"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tercer Parcial"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/textView7"
+        android:paddingTop="240dp"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:visibility="invisible"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutPorcentaje3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:paddingLeft="20dp"
+        android:paddingTop="280dp"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/porcentaje3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Porcentaje"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutNota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="170dp"
+        android:paddingTop="280dp"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/nota3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="Nota"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayoutButtons"
+        android:visibility="invisible">
+
+        <Button
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpiar"
+            android:id="@+id/buttonLimpiar"
+            android:minHeight="36dp"
+            android:minWidth="88dp"
+            android:textColor="#ffffff"
+            android:onClick="onClickLimpiar"
+            android:nestedScrollingEnabled="true"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:id="@+id/buttonCalcular"
+            android:minHeight="36dp"
+            android:minWidth="88dp"
+            android:textColor="#ffffff"
+            android:onClick="onClickCalcular"
+            android:nestedScrollingEnabled="true"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+
 </RelativeLayout>

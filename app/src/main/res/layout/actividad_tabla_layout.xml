@@ -26,7 +26,10 @@
         android:layout_below="@+id/textView5"
         android:layout_centerHorizontal="true"
         android:maxLength="3"
-        android:textStyle="bold" />
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,6 +43,7 @@
         android:visibility="invisible" />
 
     <Button
+        style="@style/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Convertir"
@@ -47,8 +51,9 @@
         android:layout_below="@+id/editTextCampo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
-        android:background="@color/colorPrimary"
+        android:minHeight="36dp"
+        android:minWidth="88dp"
         android:textColor="#ffffff"
-        android:onClick="onClickConvertir"/>
+        android:onClick="onClickConvertir" />
 
 </RelativeLayout>

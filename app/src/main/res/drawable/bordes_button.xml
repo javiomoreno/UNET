@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:left="5dp" android:top="5dp">
+                <shape>
+                    <corners android:radius="2dp" />
+                    <gradient
+                        android:angle="270"
+                        android:endColor="#6E6E6E"
+                        android:startColor="#E6E6E6"
+                        android:type="radial"
+                        android:centerX="0.70"
+                        android:centerY="0"
+                        android:gradientRadius="300"/>
+                    <padding android:bottom="3dp" android:left="0dp" android:right="3dp" android:top="0dp" />
+                </shape>
+            </item>
+            <item android:bottom="2dp" android:left="3dp">
+                <shape>
+                    <corners android:radius="2dp" />
+                    <solid android:color="@color/colorAccent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:left="5dp" android:top="5dp">
+                <shape>
+                    <corners android:radius="2dp" />
+                    <gradient
+                        android:angle="270"
+                        android:endColor="#000000"
+                        android:startColor="#BABABA"
+                        android:type="radial"
+                        android:centerX="0.70"
+                        android:centerY="0"
+                        android:gradientRadius="300"/>
+                    <padding android:bottom="3dp" android:left="0dp" android:right="3dp" android:top="0dp" />
+                </shape>
+            </item>
+            <item android:bottom="2dp" android:left="3dp">
+                <shape>
+                    <corners android:radius="2dp" />
+                    <solid android:color="@color/colorPrimary" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

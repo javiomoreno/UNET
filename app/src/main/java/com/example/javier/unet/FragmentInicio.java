@@ -54,7 +54,7 @@ public class FragmentInicio extends Fragment {
         imageButton_cuanto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getActivity(), ActividadGuarda.class);
+                Intent i = new Intent(getActivity(), ActividadCuanto.class);
                 startActivity(i);
             }
         });
