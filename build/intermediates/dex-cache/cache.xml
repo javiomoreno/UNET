@@ -2,39 +2,53 @@
 <items version="2" >
 
     <item
-        jar="/home/javier/Projects Android/UNET/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
+        jar="/home/javier/Android/Projects/UNET/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/javier/Android/Projects/UNET/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_b49538db995e27c1705a2d0474b0deed53153f3f.jar" />
+    </item>
+    <item
+        jar="/home/javier/Android/Projects/UNET/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/javier/Projects Android/UNET/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-77857c7030e52d89ed51519f5f445260a8d0dc84.jar" />
+        <dex dex="/home/javier/Android/Projects/UNET/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_b8dc9513371bc7564cf6a6ce8572d0dbb654f681.jar" />
+    </item>
+    <item
+        jar="/home/javier/Android/Projects/UNET/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/javier/Android/Projects/UNET/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_c65292c9a99523f875fd26c9daada70f5e235b11.jar" />
     </item>
     <item
         jar="/home/javier/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/javier/Projects Android/UNET/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-7268dc9e2e1b7dcc8ec656c79902d026c1f68e82.jar" />
+        <dex dex="/home/javier/Android/Projects/UNET/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_7268dc9e2e1b7dcc8ec656c79902d026c1f68e82.jar" />
     </item>
     <item
-        jar="/home/javier/Projects Android/UNET/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/javier/Android/Projects/UNET/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         revision="23.0.1"
-        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="/home/javier/Projects Android/UNET/app/build/intermediates/pre-dexed/debug/classes-131e0681a6c891c83fc3bae56e9e8fbf9f9ce7cd.jar" />
+        sha1="902a18af0d1ce82f2d7eb8bce9e877000d5db5ee">
+        <dex dex="/home/javier/Android/Projects/UNET/app/build/intermediates/pre-dexed/debug/instant-run_de84f10683d1bd29772308aac59967d1ed857580.jar" />
     </item>
     <item
-        jar="/home/javier/Projects Android/UNET/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/javier/Android/Projects/UNET/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="93999efa5f150fd3a213a346284ba2314c0b0f55">
+        <dex dex="/home/javier/Android/Projects/UNET/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_fef9222838188229fb5f3fd9d9fc3bc4c5571620.jar" />
+    </item>
+    <item
+        jar="/home/javier/Android/Projects/UNET/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/javier/Projects Android/UNET/app/build/intermediates/pre-dexed/debug/classes-f5e1dba3d844bdfa094cb292284bd59399dd839d.jar" />
-    </item>
-    <item
-        jar="/home/javier/Projects Android/UNET/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/javier/Projects Android/UNET/app/build/intermediates/pre-dexed/debug/classes-917b6f77b2f99f9807e9f6c1800902af535896e7.jar" />
+        <dex dex="/home/javier/Android/Projects/UNET/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_8802c8a5503db33617e6ef97de7480775658187d.jar" />
     </item>
 
 </items>
